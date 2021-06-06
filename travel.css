@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+   /* font-family:'Baloo Bhai',cursive;*/
+   height: 500px;
+
+}
+.div{
+    background-color: rgb(228, 68, 68);
+    height: 90px;
+ 
+    width: 100%;
+}
+li {
+    height:20px;
+   
+}
+#nav ul{
+    list-style: none;
+    display: flex;
+}
+/*padding between first li element and left part*/
+ li:first-of-type{
+    padding-left: 420px;
+} 
+li{
+    padding: 40px 35px;/*padding between elements of li*/
+   
+}
+#nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding:6px 10px;/*padding of box when hovered over*/
+}
+  
+#nav ul li a:hover{
+border: 2px black solid;
+border-radius: 4px;
+background-color: black;
+
+}
+.cart img{
+    width: 50px;
+    height: 50px;
+    padding: 30px 40px;
+    filter: invert(100%);
+    
+}
+.acme{
+    letter-spacing: 4px;
+    color: white;
+    padding-top: 40px;
+}
+.background{
+    background: url('back.jpg')no-repeat center center/cover;
+    height: 570px;
+
+   
+  
+  
+}
+h1{
+    font-size: 80px;
+    height: 100px;
+    padding: 80px 150px;
+  
+    
+ 
+   
+}
+h2{
+    padding:20px 150px ;
+    height: 80px;
+    color:  rgb(8, 8, 8);
+  
+}
+#btn{
+    height: 50px;
+    padding: 10px 10px;
+    margin:15px 150px ;
+    background: transparent;
+    border: 2px solid rgb(219, 209, 209);
+    border-radius: 10px;
+    color: rgb(230, 215, 215);
+    font-size: 20px;
+}
+#btn:hover{
+  background-color: red
+}
+#solo{
+  height: 100px;
+}
+.support{
+    padding: 100px 200px;
+   
+}
+#support{
+    height: 150px;
+}
+.products{
+    display: flex;
+}
+.trek h2{
+    color: white;
+}
+.prod{
+   /* padding: 10px 150px;*/
+    border: 3px solid black;
+    width: 1000px;
+    height: 350px;
+    margin: 80px 40px;
+    background-color: black;
+    color: rgb(192, 27, 27);
+}
+.br{
+    padding: 40px 10px;
+    font-size: 80px;
+    height: 10px;
+    margin-left: 20px;
+}
+.products{
+    height: 00px;
+}
+.one{
+    padding: 100px 40px;
+    text-align: center;
+    font-size:40 ;
+}
+.text{
+    display: flex;
+  
+    
+}
+.tt{
+    padding: 530px 40px;
+    font-family: 'Baloo Bhai',cursive;
+}
+.trek{
+    background: url('trek.jpeg')no-repeat center center/cover;
+    height:700px;
+    background-position-y:70%;
+    margin-top: 130px;
+    color: white;
+}
+
+#second{
+    height: 60px;
+    width: 200px;
+    border: 3px solid rgb(17, 16, 16);
+    border-radius: 10px;
+    margin: 30px 150px;
+    font-size: 15px;
+}
+#second:hover{
+color: white;
+background-color: red;
+
+
+}
+.black{
+    height: 35px;
+    padding-top: 5px ;
+    font-size: 40px;
+    font-weight: bolder;
+   
+}
+
+.price{
+    display: flex;
+    font-size: 20px;
+    height: 20px;
+    width: 20px;
+}
+.dollar{
+  padding: 10px 140px;
+    white-space: nowrap;
+}
+.bored{
+    display: flex;
+  
+    height: 30px;
+}
+.boredaf{
+    padding: 10px 140px;
+}
+.btn{
+    height: 40px;
+    width: 90px;
+    background-color: red;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 20px 130px;
+    font-family:'Baloo Bhai 2', cursive;;
+    font-size: 15px;
+}
+#black{
+    margin-left: 230px ;
+}
+#white{
+    margin-left: 190px;
+}
+.btn:hover{
+    background-color: rgb(10, 10, 10);
+    color: white;
+}
+#pink{
+    height: 50px;
+    width: 200px;
+    margin: 30px 45%;
+    border: 2px black solid;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;;
+    font-size: 20px;
+    padding: px;
+   
+}
+#pink:hover{
+    background-color: red;
+}
+
+.pink{
+    background-color: tan;
+    height: 80px;
+}
+.details{
+   
+    height: 60px;
+}
+.local{
+    display: flex;
+}
+#b{
+    position: relative;
+    height: 500px;
+  
+    z-index: 1;
+}
+#a{
+    height: 400px;
+    margin-top: 40px;
+}
+#repeat{
+    position: relative;
+    height: 350px;
+    
+}
+img{
+    padding-left: 100px;
+}
+section{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    padding: 100px ;
+}
+.local{
+    margin: 0 auto;
+    display: flex;
+    align-items:center;
+    justify-content: center;  
+}
+.left{
+    width: 50%;
+    height: 400px;
+    background: url('work.jpeg') no-repeat center/cover;
+    border-radius: 8px;
+    margin-top: 270px;
+}
+.right{
+    width: 50%;
+    height: 300px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 300px;
+    padding: 40px;
+    border-radius: 8px;
+    margin-left: -80px;
+}
+.right p{
+    margin: 20px;
+    font-weight: 500px; 
+    line-height: 25px;
+}
+.right h1{
+    font-size: 40px;
+    font-weight:lighter;
+    white-space: nowrap;
+    height: 40px;
+}
+.footer{
+    margin-top: 240px;
+    padding: 50px ;
+    display: flex;
+    background-color: rgb(7, 7, 7);
+    color: white;
+    height: 100px;
+}
+.social {
+    display: flex;
+}
+.social img{
+    width: 30px;
+    height: 30px;
+    filter:invert(100%);
+}
+#rose{
+    
+    letter-spacing: 4px;
+}
+#social{
+    margin-left: 400px;
+}
+.media{
+    width: 70px;
+}
+.social{
+    margin-left: 120px;
+}
